@@ -36,14 +36,8 @@
             </td>
             <td>
               <div class="btn-group btn-group-sm">
-                <button
-                  type="button"
-                  class="btn btn-outline-secondary"
-                  @click="openProductModal(product.id)"
-                  :disabled="isLoadingItem == product.id"
-                >
-                  查看更多
-                </button>
+                <router-link       class="btn btn-outline-secondary"
+                  :disabled="isLoadingItem == product.id" :to="`/product/${product.id}`">查看更多</router-link>
                 <button
                   type="button"
                   class="btn btn-danger"
