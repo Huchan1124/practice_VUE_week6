@@ -4,7 +4,6 @@ const routes = [
   // 前台
   {
     path: '/',
-    name: 'home',
     component: () => import('../views/FrontView.vue'),
     children: [
       {
@@ -18,6 +17,10 @@ const routes = [
       {
         path: 'cart',
         component: () => import('../views/CartView.vue')
+      },
+      {
+        path: 'login',
+        component: () => import('../views/LoginView.vue')
       }
     ]
   },

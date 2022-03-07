@@ -1,5 +1,4 @@
 <template>
-  <router-link to="/">前台頁面</router-link>
-  <h1>後台頁面</h1>
+  <router-link to="/">回到前台頁面</router-link>
   <router-view />
 </template>
