@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkweek6"]=self["webpackChunkweek6"]||[]).push([[499],{9499:function(e,n,u){u.r(n),u.d(n,{default:function(){return a}});var r=u(3396);const t=(0,r.Uk)("回到前台頁面");function c(e,n){const u=(0,r.up)("router-link"),c=(0,r.up)("router-view");return(0,r.wg)(),(0,r.iD)(r.HY,null,[(0,r.Wm)(u,{to:"/"},{default:(0,r.w5)((()=>[t])),_:1}),(0,r.Wm)(c)],64)}var o=u(89);const k={},s=(0,o.Z)(k,[["render",c]]);var a=s}}]);
+//# sourceMappingURL=499.d8016ccf.js.map
